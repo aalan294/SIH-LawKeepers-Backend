@@ -20,3 +20,6 @@ app.use(express.json());
 app.use('/admin',require('./Routers/adminRouter'))
 app.use('/police',require('./Routers/policeRouter'))
 app.use('/user',require('./Routers/defendantRouter'))
+app.use('/request',require('./Routers/requestRouter'))
+app.use('/lawyer',require('./Routers/lawyerRouter'))
+app.use('/judge',require('./Routers/judgeRouter'))
